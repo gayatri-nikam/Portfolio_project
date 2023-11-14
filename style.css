@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Gill Sans Extrabold,
+        sans-serif;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(21, 20, 20);
+    color: white;
+}
+
+header {
+    margin-bottom: 60px;
+}
+
+.first {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.navBar {
+    width: auto;
+    height: 80px;
+    background-color: black;
+}
+
+.Portfolio {
+    margin-left: 80px;
+}
+
+.Portfolio:hover {
+    font-size: 25px;
+}
+
+nav {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 20px;
+    margin-top: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+.second {
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.third a {
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 7px;
+    display: inline block;
+    margin-left: 10px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+}
+
+.third {
+    margin-top: 30px;
+}
+
+.third a:hover {
+    color: red;
+    border: 1px solid red;
+    background-color: black;
+}
+
+.contact {
+    margin-top: 20px;
+    color: black;
+    margin-left: 80px;
+}
+
+.work {
+    margin-bottom: 30px;
+}
+
+.final {
+    margin-bottom: 30px;
+}
+
+.image {
+    display: flex;
+    border-radius: 50%;
+    position: absolute;
+    left: 60%;
+}
+
+.image:hover {
+
+    box-shadow: 5px 5px 50px rgb(199, 69, 69);
+}
+
+.link {
+    text-decoration: none;
+    display: inline-block;
+}
+
+#visit1 {
+    color: white;
+    text-align: center;
+}
+
+#visit2 {
+    margin-left: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#visit3 {
+    margin-left: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.subLink {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* this is main starting */
+.p1 {
+    display: inline-block;
+    margin-right: 100px;
+    height: 150px;
+    width: 350px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 5px 5px 20px rgba(215, 185, 185, 0.3);
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.p2 {
+    display: inline-block;
+    margin-left: 100px;
+    height: 150px;
+    width: 350px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 5px 5px 20px rgba(215, 185, 185, 0.3);
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.ptitle {
+    margin-top: 10px;
+}
+
+.project {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.two {
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.sub-two {
+    margin-top: 10px;
+}
+
+.pic {
+    border-radius: 50%;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(230, 58, 58);
+}
+
+.heading:hover {
+    font-size: 35px;
+}
+
+.heading1:hover {
+    font-size: 35px;
+}
+
+.certificate {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 40px;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 420px;
+    cursor: pointer;
+    box-shadow: 1px 1px 12px rgba(235, 230, 230, 0.5);
+}
+
+.certificate:hover {
+    border: 2px solid red;
+}
+
+.certificate p {
+    text-align: center;
+
+}
+
+.name1 {
+    text-align: center;
+    margin: 10px;
+    color: rgb(230, 58, 58);
+}
+
+.last {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    height: 30px;
+    width: auto;
+}
+
+.greeting {
+    color: rgb(230, 58, 58);
+}
+
+.imformation1 {
+    margin-top: 40px;
+}
+
+.Profession {
+    margin: 10px;
+}
+
+.title {
+    color: rgb(230, 58, 58);
+}
+.back{
+    text-decoration: none;
+    color: black;
+    width: 30px;
+    height: 25px;
+    border-radius: 50%;
+    background-color:white ;
+    float: right;
+}
